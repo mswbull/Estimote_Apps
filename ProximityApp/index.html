@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=yes,
+		initial-scale=1.0" />
+
+	<title>Proximity App</title>
+
+	<style>
+	@import 'page.css';
+	</style>
+
+	<script>
+	// Redirect console if running from Evothings Workbench.
+	if (window.hyper) { console.log = hyper.log }
+	</script>
+</head>
+
+<body>
+	<div class="my-page" id="page-default">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/mac.jpg" />
+		</div>
+		<div class="my-content">
+			<h1>Proximity App</h1>
+			<p>Please move within range of an Estimote Beacon.</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-feet">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/mac.jpg" />
+		</div>
+		<div class="my-content">
+			<h1>Mint</h1>
+			<p>Here’s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes.</p>
+			<p>The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them.</p>
+			<p>About the only thing you cant do is ignore them.</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-shoulders">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/mac.jpg" />
+		</div>
+		<div class="my-content">
+			<h1>Ice</h1>
+			<p>You can never cross the ocean until you have the courage to lose sight of the shore.</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-face">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/mac.jpg" />
+		</div>
+		<div class="my-content">
+			<h1>Blueberry</h1>
+			<p>You miss 100% of the shots you don’t take.</p>
+		</div>
+	</div>
+
+	<script src="lib/jquery.js"></script>
+	<script src="cordova.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
